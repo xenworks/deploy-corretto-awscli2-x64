@@ -1,4 +1,4 @@
-FROM 17-alpine-jdk
+FROM amazoncorretto:17-alpine-jdk
 RUN yum upgrade && \
     yum install --yes \
         rsync \
